@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap');
+
+//fonts
+$text: Raleway, sans-serif;
+$b_text: Roboto, sans-serif;
+$regularText: 400;
+$boldText: 700;
+
+//colors
+$grey1: #eaeaea !default;
+$grey2: #F4F4F4 !default;
+$grey3: #c4c4c4 !default;
+$grey4: #555 !default;
+$grey5: #3a3a3a !default;
+$black: #000 !default;
+$white: #fff !default;
+$pink: #ea99a3 !default;
+$red: #ff3d00 !default;
+$turquoise: #86C2BB !default;
+
+html{
+    padding: 0;
+    margin: 0;
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: $grey2 ;
+        font-family: $text;
+        font-weight: $regularText;
+        font-size: 14px;
+
+        header {
+            background-color: $white;
+            .iMore:after{
+                background:url("/img/down.png") right bottom no-repeat;
+                width:10px;
+                height:14px;
+                content:"";
+                display: block;
+                float: right;
+                margin-left: 8px;
+            }
+            ul.navMenu1 {
+                li 
+                {
+                    a{
+                        font-size: 14px;
+                        color: $grey5;
+                        padding: 0;
+                        margin-left: 20px;
+                        button {
+                            background-color: $pink;
+                            color: $white;
+                            font-weight: $boldText;
+                            border-radius: 0.4em;
+                            border: 0;
+                        }
+                        &:hover {
+                            color: $black;
+                        }
+                    }
+                }
+            }
+            ul.navMenu2{
+                li{
+                    a{
+                        font-weight: $boldText;
+                        font-size: 16px;
+                        color: $grey4;
+                        padding: 0;
+                        margin-left: 30px;
+                        i{
+                            font-size: 20px;
+                            color: $turquoise;
+                        }
+                        &.iMore:last-child{
+                            height: 40px;
+                        }
+                        img.avatar{
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+        section.filters{
+            label{
+                color: $black;
+            }
+            input{
+                border: 1px solid $grey3;
+                width: fit-content;
+                margin-right: 32px;
+            }
+            button{
+                background-color: $white;
+                border: 1px solid $grey3;
+                color: $grey3;
+                font-weight: $boldText;
+                line-height: 18px;
+                &.active{
+                    background-color: rgba($pink, 0.333);   
+                    border: 1px solid $pink;
+                    color: $pink;
+                }
+            }
+        }
+    }
+}
