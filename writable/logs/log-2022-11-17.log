@@ -8,3 +8,12 @@ in APPPATH\Controllers\Home.php on line 10.
  6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
  7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 12:21:16 --> Invalid file: results.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('results.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('results', [], true)
+ 3 APPPATH\Controllers\Pages.php(18): view('results')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

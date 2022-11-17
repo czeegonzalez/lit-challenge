@@ -2,12 +2,12 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Vacancy extends BaseController
 {
     public function index()
     {
         return view('header')
-            . view('filters')
+            . view('Vacancy')
             . view('board')
             . view('footer');
     }
