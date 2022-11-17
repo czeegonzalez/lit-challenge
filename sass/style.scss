@@ -159,5 +159,58 @@ html{
                 }
             }
         }
+        div.breadcrumb{
+            background-color: $grey1;
+            ol{
+                margin-bottom: 0;
+                a{
+                    color: $black;
+                }
+            }
+        }
+        .vDetails{
+            margin-bottom: 50px;
+            .col{
+                background-color: $white;
+                padding: 20px;
+            }
+            button{
+                background-color: $pink;
+                color:$white;
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 16px;
+                border: 0;
+                border-radius: 3px;
+                padding: 10px 20px;
+                margin-top: 22px;
+            }
+        }
+        .warning{
+            border: 3px solid $red;
+            padding: 13px 15px 20px;
+            i{
+                color: $red;
+                font-size: 28px;
+                margin-right: 8px;
+            }
+            p{
+                font-weight: 600;
+            }
+            span{
+                color: $red;
+                font-size:14px;
+            }
+        }
+        .cDetails{
+            button{
+                border: 2px solid $pink;
+                border-radius: 3px;
+                color: $pink;
+                font-size: 16px;
+                font-weight: 700;
+                padding: 10px 20px;
+            }
+        }
     }
 }

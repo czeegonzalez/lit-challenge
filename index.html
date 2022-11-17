@@ -99,20 +99,21 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="px-3 py-2  mb-3">
-            <div class="container">
-                <h2>Search by filters</h2>
-                <input type="text" placeholder="Functional Area">
-                <input type="text" placeholder="Seniority">
-                <input type="text" placeholder="Perks">
-                <input type="text" placeholder="Location">
+    <section class="filters">
+        <div class="px-5 py-2 my-3">
+            <div class="container ">
+                <h2 class="my-4">Search by filters</h2>
+                <input type="text" placeholder="Functional Area" class="px-2 py-2">
+                <input type="text" placeholder="Seniority" class="px-2 py-2">
+                <input type="text" placeholder="Perks" class="px-2 py-2">
+                <input type="text" placeholder="Location" class="px-2 py-2">
                 <hr>
                 <h2>Search by keywords</h2>
                 <div class="d-flex mb-3">
-                    <div class="me-auto p-2"><input type="text" placeholder="Keywords"></div>
+                    <div class="me-auto p-2"><input type="text" placeholder="Keywords" class="px-2 py-2"></div>
                     <div>
-                        <button>Recent</button>
+                        <label for="">Order by: </label>
+                        <button class="active">Recent</button>
                         <button>Companies A-Z</button>
                     </div>
                 </div>
@@ -120,35 +121,39 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="results">
         <div class="px-3 py-2  mb-3">
             <div class="container">
-                <table class="table caption-top">
-                    <tbody>
-                        <tr>
-                            <td><img src="" alt=""></td>
-                            <td>
-                                <h3><a href="vacancy.html">Job role title and it can be quite long</a></h3>
-                                <h4>Company name</h4>
-                                <span>Posted x days ago</span>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Full Time</li>
-                                    <li>Remote</li>
-                                    <li>Entry level</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <div class="d-flex flex-row-reverse">
-                                    <div><img src="" alt="" width="54" height="58"></div>
-                                    <div><img src="" alt="" width="54" height="58"></div>
-                                    <div><img src="" alt="" width="54" height="58"></div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+              <div class="list-group">
+                <div class="list-group-item list-group-item-action px-3 py-4" aria-current="true">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div>
+                      <img src="img/company.png" alt="" class="logoCompany">
+                      </div>  
+                      <div class="ms-3">
+                          <a href="vacancy.html" class="vTitle">Job role title and it can be quite long</a><br>
+                          <a href="company.html" class="vCompany">Company name</a><br>
+                          <span>Posted x days ago</span>
+                      </div>
+                    </div>
+                    <div>
+                      <ul class="facilities"> 
+                        <li>Full Time</li>
+                        <li>Remote</li>
+                        <li>Entry level</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="d-flex flex-row-reverse badges">
+                        <div><img src="img/badge1.png" alt="" width="54" height="58"></div>
+                        <div><img src="img/badge3.png" alt="" width="54" height="58"></div>
+                        <div><img src="img/badge5.png" alt="" width="54" height="58"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>    
     </section>
