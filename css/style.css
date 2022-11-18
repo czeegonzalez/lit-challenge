@@ -41,6 +41,13 @@ html {
     html body ul.facilities {
       list-style-image: url("../img/bullet.png");
       margin-bottom: 0; }
+    html body .ui-widget-content {
+      border: 1px solid #c4c4c4;
+      background: #fff;
+      color: #555;
+      width: fit-content !important;
+      list-style: none;
+      padding: 10px; }
     html body header {
       background-color: #fff;
       display: grid; }
@@ -74,8 +81,6 @@ html {
         html body header ul.navMenu2 li a i {
           font-size: 20px;
           color: #86C2BB; }
-        html body header ul.navMenu2 li a.iMore:last-child {
-          height: 40px; }
         html body header ul.navMenu2 li a img.avatar {
           width: 40px;
           height: 40px; }

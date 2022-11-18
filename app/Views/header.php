@@ -99,7 +99,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link iMore ">
+                        <a href="#" class="nav-link iMore iHigher">
                             <img src="<?php echo base_url('img/avatar.png'); ?>" alt="" class="avatar">
                         </a>
                     </li>

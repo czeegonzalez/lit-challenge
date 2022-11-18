@@ -71,6 +71,15 @@ html{
             margin-bottom: 0;
         }
 
+        .ui-widget-content {
+            border: 1px solid $grey3;
+            background: $white;
+            color: $grey4;
+            width: fit-content !important;
+            list-style: none;
+            padding: 10px;
+        }
+
         header {
             background-color: $white;
             display: grid;
@@ -116,9 +125,7 @@ html{
                             font-size: 20px;
                             color: $turquoise;
                         }
-                        &.iMore:last-child{
-                            height: 40px;
-                        }
+                        
                         img.avatar{
                             width: 40px;
                             height: 40px;
