@@ -42,7 +42,8 @@ html {
       list-style-image: url("../img/bullet.png");
       margin-bottom: 0; }
     html body header {
-      background-color: #fff; }
+      background-color: #fff;
+      display: grid; }
       html body header .iMore:after {
         background: url("../img/down.png") right bottom no-repeat;
         width: 10px;

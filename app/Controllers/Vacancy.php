@@ -12,6 +12,7 @@ class Vacancy extends BaseController
 
         $data['vacancyDetail'] = $model->getVacancyDetail($vacancyID);
         $data['vacancies'] = $model->getSimilar($vacancyID);
+        $data['title'] = 'Similar Jobs';
 
         return view('header')
             . view('pages/vacancy', $data)

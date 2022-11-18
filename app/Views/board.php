@@ -2,8 +2,12 @@
         <div class="px-3 py-2  mb-3">
             <div class="container">
               <div class="list-group">
-
-                <?php
+              <?php if (isset($title)){ ?>
+                <div class="list-group-item list-group-item-action px-3 py-4" aria-current="true">
+                  <h3><?= $title ?></h3>
+                </div>
+              <?php
+                }
                 foreach ($vacancies as $vacancy) { ?>
                 
                 <div class="list-group-item list-group-item-action px-3 py-4" aria-current="true">

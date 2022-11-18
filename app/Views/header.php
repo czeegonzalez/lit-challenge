@@ -21,7 +21,7 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <header class="sticky-top">
+    <header class="">
         <div class="px-3 py-2 border-bottom">
           <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">

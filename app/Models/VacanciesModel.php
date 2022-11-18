@@ -16,7 +16,7 @@ class VacanciesModel extends Model
 
 		$builder->select('*');
 		$builder->join('company', 'vacancy.company_ID=company.companyID');
-		$builder->limit(10);
+		//$builder->limit(10);
 		$query = $builder->get();
 
 		$result = $query->getResult();

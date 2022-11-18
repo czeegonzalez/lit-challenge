@@ -73,6 +73,7 @@ html{
 
         header {
             background-color: $white;
+            display: grid;
             .iMore:after{
                 background:url("../img/down.png") right bottom no-repeat;
                 width:10px;
