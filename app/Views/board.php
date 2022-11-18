@@ -14,7 +14,7 @@
                   <div class="d-flex justify-content-between">
                       <div class="d-flex col-4">
                           <div class="">
-                              <img src="<?php echo base_url('img/'.$vacancy->logo.'' )?>" alt="" class="logoCompany">
+                              <img src="<?php echo base_url('img/'.$vacancy->logo.'' )?>" alt="" class="logoCompany" width="60" height="60">
                           </div>  
                           <div class="ms-3 ">
                               <a href="<?php echo base_url('vacancy/'.$vacancy->vacancyID.'' )?>" class="vTitle"><?= $vacancy->title ?></a><br>
