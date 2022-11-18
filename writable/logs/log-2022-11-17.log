@@ -17,3 +17,617 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
  6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:09:35 --> Too few arguments to function App\Models\VacanciesModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 11 and exactly 1 expected
+in APPPATH\Models\VacanciesModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(11): App\Models\VacanciesModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:10:31 --> Too few arguments to function App\Models\VacanciesModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 11 and exactly 1 expected
+in APPPATH\Models\VacanciesModel.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): App\Models\VacanciesModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:10:34 --> Too few arguments to function App\Models\VacanciesModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 11 and exactly 1 expected
+in APPPATH\Models\VacanciesModel.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): App\Models\VacanciesModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:10:34 --> Too few arguments to function App\Models\VacanciesModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 11 and exactly 1 expected
+in APPPATH\Models\VacanciesModel.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): App\Models\VacanciesModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:12:03 --> Too few arguments to function App\Models\CompanyModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 12 and exactly 1 expected
+in APPPATH\Models\CompanyModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): App\Models\CompanyModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:12:04 --> Too few arguments to function App\Models\CompanyModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 12 and exactly 1 expected
+in APPPATH\Models\CompanyModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): App\Models\CompanyModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:12:05 --> Too few arguments to function App\Models\CompanyModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 12 and exactly 1 expected
+in APPPATH\Models\CompanyModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): App\Models\CompanyModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:12:12 --> Class 'App\Models\Model' not found
+in APPPATH\Models\VacanciesModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 5 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 6 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:12:14 --> Class 'App\Models\Model' not found
+in APPPATH\Models\VacanciesModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 5 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 6 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:13:24 --> Too few arguments to function App\Models\CompanyModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 12 and exactly 1 expected
+in APPPATH\Models\CompanyModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): App\Models\CompanyModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:13:26 --> Too few arguments to function App\Models\CompanyModel::__construct(), 0 passed in C:\wamp64\www\lit-challenge\app\Controllers\Home.php on line 12 and exactly 1 expected
+in APPPATH\Models\CompanyModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): App\Models\CompanyModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:13:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VacanciesModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(16): App\Models\VacanciesModel->listVacancies()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:32:50 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:32:51 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:32:52 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:34:44 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:34:46 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:34:47 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:34:47 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:36:58 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:36:59 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:36:59 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:37:00 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:37:00 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:37:00 --> Undefined variable: vacanciesModel
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacanciesModel', 'APPPATH\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:38:12 --> Illegal string offset 'title'
+in APPPATH\Views\board.php on line 3.
+ 1 APPPATH\Views\board.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'title\'', 'APPPATH\\Views\\board.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('board', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:44:53 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:53:37 --> Undefined variable: companyModel
+in APPPATH\Models\VacanciesModel.php on line 25.
+ 1 APPPATH\Models\VacanciesModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: companyModel', 'APPPATH\\Models\\VacanciesModel.php', 25, [])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:16 --> syntax error, unexpected ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:18 --> syntax error, unexpected ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:30 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:31 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:32 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:33 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:33 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:34 --> syntax error, unexpected '$query' (T_VARIABLE), expecting ';'
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:43 --> Undefined variable: db
+in APPPATH\Models\VacanciesModel.php on line 15.
+ 1 APPPATH\Models\VacanciesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\VacanciesModel.php', 15, [])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:45 --> Undefined variable: db
+in APPPATH\Models\VacanciesModel.php on line 15.
+ 1 APPPATH\Models\VacanciesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\VacanciesModel.php', 15, [])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:45 --> Undefined variable: db
+in APPPATH\Models\VacanciesModel.php on line 15.
+ 1 APPPATH\Models\VacanciesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\VacanciesModel.php', 15, [])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:46 --> Undefined variable: db
+in APPPATH\Models\VacanciesModel.php on line 15.
+ 1 APPPATH\Models\VacanciesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\VacanciesModel.php', 15, [])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:46 --> Undefined variable: db
+in APPPATH\Models\VacanciesModel.php on line 15.
+ 1 APPPATH\Models\VacanciesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\VacanciesModel.php', 15, [])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:56 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:58 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:58 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:59 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:59 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:58:59 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:59:00 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:59:00 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:59:00 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:59:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 13:59:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Models\VacanciesModel.php on line 21.
+ 1 APPPATH\Models\VacanciesModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Models\\VacanciesModel.php', 21, [...])
+ 2 APPPATH\Controllers\Home.php(12): App\Models\VacanciesModel->listVacancies()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 14:57:35 --> Cannot use object of type stdClass as array
+in APPPATH\Views\board.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 4 APPPATH\Controllers\Home.php(17): view('board', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 14:57:36 --> Cannot use object of type stdClass as array
+in APPPATH\Views\board.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 4 APPPATH\Controllers\Home.php(17): view('board', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 17:20:00 --> Undefined property: stdClass::$id
+in APPPATH\Views\board.php on line 15.
+ 1 APPPATH\Views\board.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\board.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('board', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 17:23:56 --> syntax error, unexpected '$badges' (T_VARIABLE)
+in APPPATH\Views\board.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('board', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 17:27:40 --> Array to string conversion
+in APPPATH\Views\board.php on line 34.
+ 1 APPPATH\Views\board.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\board.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('board', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 17:59:16 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:00:30 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:00:32 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:01:00 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:06:44 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:07:02 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:07:11 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:07:16 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:08:15 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:08:16 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:08:17 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:08:32 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:09:34 --> Undefined variable: vacancies
+in APPPATH\Views\board.php on line 6.
+ 1 APPPATH\Views\board.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancies', 'APPPATH\\Views\\board.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\board.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('board', [], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('board')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('vacancy')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

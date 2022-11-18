@@ -15,7 +15,7 @@ class Pages extends BaseController
 
         return view('header')
             . view('pages/' . $page)
-            . view('board')
+            //. view('board')
             . view('footer');
     }
 }
