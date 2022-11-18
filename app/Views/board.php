@@ -50,7 +50,7 @@
                         if (count ($badges)>1){
                           foreach ($badges as $badge) {
                             if($badge!='')
-                            print "<div><img src='../img/".$badge.".png' alt='' width='54' height='58'></div>";
+                            print "<div><img src='".base_url('img/'.$badge).".png' alt='' width='54' height='58'></div>";
                           }
                         }
                         ?>

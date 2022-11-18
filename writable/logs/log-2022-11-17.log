@@ -631,3 +631,117 @@ in APPPATH\Views\board.php on line 6.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 18:34:59 --> mysqli_sql_exception: Column 'ID' in where clause is ambiguous in C:\wamp64\www\lit-challenge\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\lit-challenge\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lit-challenge\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lit-challenge\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lit-challenge\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lit-challenge\app\Models\VacanciesModel.php(37): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\lit-challenge\app\Controllers\Vacancy.php(13): App\Models\VacanciesModel->getVacancyDetail('1')
+#6 C:\wamp64\www\lit-challenge\system\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+#7 C:\wamp64\www\lit-challenge\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+#8 C:\wamp64\www\lit-challenge\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\lit-challenge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 18:34:59 --> Column 'ID' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `vacancy`
+JOIN `company` ON `vacancy`.`company_ID`=`company`.`ID`
+WHERE `ID` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `vacancy`
+JOIN `company` ON `vacancy`.`company_ID`=`company`.`ID`
+WHERE `ID` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vacancy`
+JOIN `company` ON `vacancy`.`company_ID`=`company`.`ID`
+WHERE `ID` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vacancy`
+JOIN `company` ON `vacancy`.`company_ID`=`company`.`ID`
+WHERE `ID` = :ID:', [...], false)
+ 5 APPPATH\Models\VacanciesModel.php(37): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\Vacancy.php(13): App\Models\VacanciesModel->getVacancyDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:36:00 --> Undefined variable: vacancy
+in APPPATH\Views\pages\vacancy.php on line 2.
+ 1 APPPATH\Views\pages\vacancy.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancy', 'APPPATH\\Views\\pages\\vacancy.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\vacancy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/vacancy', [], true)
+ 5 APPPATH\Controllers\Vacancy.php(16): view('pages/vacancy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:38:04 --> Trying to get property 'title' of non-object
+in APPPATH\Views\pages\vacancy.php on line 14.
+ 1 APPPATH\Views\pages\vacancy.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'title\' of non-object', 'APPPATH\\Views\\pages\\vacancy.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\vacancy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/vacancy', [], true)
+ 5 APPPATH\Controllers\Vacancy.php(16): view('pages/vacancy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:39:31 --> Trying to get property 'title' of non-object
+in APPPATH\Views\pages\vacancy.php on line 15.
+ 1 APPPATH\Views\pages\vacancy.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'title\' of non-object', 'APPPATH\\Views\\pages\\vacancy.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\vacancy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/vacancy', [], true)
+ 5 APPPATH\Controllers\Vacancy.php(16): view('pages/vacancy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:42:40 --> Undefined variable: vacancyDetail
+in APPPATH\Views\pages\vacancy.php on line 1.
+ 1 APPPATH\Views\pages\vacancy.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: vacancyDetail', 'APPPATH\\Views\\pages\\vacancy.php', 1, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\vacancy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/vacancy', [], true)
+ 5 APPPATH\Controllers\Vacancy.php(16): view('pages/vacancy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 18:42:55 --> Undefined variable: data
+in APPPATH\Views\pages\vacancy.php on line 1.
+ 1 APPPATH\Views\pages\vacancy.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\pages\\vacancy.php', 1, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\vacancy.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pages/vacancy', [], true)
+ 5 APPPATH\Controllers\Vacancy.php(16): view('pages/vacancy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 19:29:48 --> Call to undefined method App\Models\VacanciesModel::getSimilar
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Vacancy.php(14): CodeIgniter\Model->__call('getSimilar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 19:40:19 --> syntax error, unexpected '*'
+in APPPATH\Models\VacanciesModel.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\VacanciesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VacanciesModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VacanciesModel')
+ 4 [internal function]: spl_autoload_call('App\\Models\\VacanciesModel')
+ 5 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\VacanciesModel')
+ 6 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\VacanciesModel')
+ 7 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 SYSTEMPATH\Common.php(809): CodeIgniter\Config\Factories::models('App\\Models\\VacanciesModel', [...], null)
+ 9 APPPATH\Controllers\Vacancy.php(11): model('App\\Models\\VacanciesModel')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Vacancy->index('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vacancy))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

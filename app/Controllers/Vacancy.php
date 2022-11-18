@@ -2,13 +2,21 @@
 
 namespace App\Controllers;
 
+use App\Models\VacanciesModel;
+
 class Vacancy extends BaseController
 {
-    public function index()
+    public function index($vacancyID)
     {
+        $model = model(VacanciesModel::class);
+
+        $data['vacancyDetail'] = $model->getVacancyDetail($vacancyID);
+        $data['vacancies'] = $model->getSimilar($vacancyID);
+
         return view('header')
-            . view('Vacancy')
-            . view('board')
-            . view('footer');
+            . view('pages/vacancy', $data)
+            .view('board',$data)
+            .view('footer');
     }
+
 }
