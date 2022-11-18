@@ -11,9 +11,9 @@ foreach ($vacancyDetail as $vacancy) {
         </nav>
       </div>
   </div>
-    <article>
-        <div class="px-3 py-2  mb-3">
-            <div class="container">
+    <article class="mb-5">
+        <div class="px-3 py-2">
+            <div class="container mb-5">
                 <div class="row">
                     <h2><?= $vacancy->title ?></h2>
                 </div>
