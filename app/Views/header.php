@@ -10,6 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url('img/favicon/apple-touch-icon.png'); ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('img/favicon/favicon-32x32.png'); ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('img/favicon/favicon-16x16.png'); ?>">
+    <link rel="manifest" href="<?php echo base_url('img/favicon/site.webmanifest'); ?>">
+    <link rel="mask-icon" href="<?php echo base_url('img/favicon/safari-pinned-tab.svg'); ?>" color="#5bbad5">
+    <link rel="shortcut icon" href="<?php echo base_url('img/favicon/favicon.ico'); ?>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="<?php echo base_url('img/favicon/browserconfig.xml'); ?>">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <header class="sticky-top">

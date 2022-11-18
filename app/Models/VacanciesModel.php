@@ -15,7 +15,7 @@ class VacanciesModel extends Model
 		$builder = $db->table('vacancy');
 
 		$builder->select('*');
-		$builder->join('company', 'vacancy.company_ID=company.ID');
+		$builder->join('company', 'vacancy.company_ID=company.companyID');
 		$builder->limit(10);
 		$query = $builder->get();
 
@@ -33,8 +33,8 @@ class VacanciesModel extends Model
 		$builder = $db->table('vacancy');
 
 		$builder->select('*');
-		$builder->join('company', 'vacancy.company_ID=company.ID');
-		$query = $builder->getWhere(['vacancy.ID' => $vacancy]);
+		$builder->join('company', 'vacancy.company_ID=company.companyID');
+		$query = $builder->getWhere(['vacancy.vacancyID' => $vacancy]);
 		$result = $query->getResult();
 		if (count($result)>0){
 			return $result;
@@ -49,16 +49,18 @@ class VacanciesModel extends Model
 		$builder = $db->table('vacancy');
 
 		$builder->select('area');
-		$query = $builder->getWhere(['vacancy.ID' => $vacancy]);
+		$query = $builder->getWhere(['vacancy.vacancyID' => $vacancy]);
 		$result = $query->getResult();
 		$area = $result[0];
 		$areaOG = $area->area;
 
 		$builder->select('*');
-		$builder->join('company', 'vacancy.company_ID=company.ID');
+		$builder->join('company', 'vacancy.company_ID=company.companyID');
 		$builder->limit(5);
-		$builder->where('vacancy.ID !=', $vacancy);
-		$query = $builder->getWhere(['vacancy.area' => $areaOG]);
+		$builder->where('vacancy.vacancyID !=', $vacancy);
+		$builder->where('vacancy.area', $areaOG);
+		$query = $builder->get();
+		//$query = $builder->getWhere(['vacancy.area' => $areaOG]);
 		$result = $query->getResult();
 
 		if (count($result)>0){
